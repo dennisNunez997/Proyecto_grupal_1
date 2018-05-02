@@ -45,6 +45,11 @@ elif Seleccion == 'c':
 
 elif Seleccion == 'd':
 	print('esfera')
+    #El volumen de una esfera
+import math
+radio_esfera = float(input("Ingrese el radio de la esfera: "))
+volumen_esfera = (4/3)*(math.pi)*(radio_esfera**3)
+print("El volumen de la esfera es: ",volumen_esfera,"m³")
 
 else:
 	print('esta opcion no esta definida')
